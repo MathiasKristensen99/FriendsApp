@@ -29,5 +29,7 @@ class FriendAdapter(context: Context, private val friends: Array<BEFriend>) : Ar
         favoriteView.setImageResource(if (f.isFavorite) R.drawable.happy else R.drawable.angry)
 
         return resView
+
+        //hej med dig
     }
 }
