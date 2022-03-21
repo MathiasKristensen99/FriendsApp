@@ -31,4 +31,6 @@ class FriendAdapter(context: Context, private val friends: Array<BEFriend>) : Ar
         return resView
 
     }
+
+
 }

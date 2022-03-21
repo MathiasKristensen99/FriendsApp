@@ -3,6 +3,8 @@ package easv.friendsapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.ListView
 import android.widget.TextView
@@ -21,5 +23,12 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(this, FriendDetailActivity::class.java)
             startActivity(i)
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return true
+    }
+    
     }
 }
