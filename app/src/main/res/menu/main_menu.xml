@@ -4,6 +4,7 @@
 
     <item android:id="@+id/action_new"
         android:title="@string/newFriend"
+        android:onClick="newFriend"
         app:showAsAction="always" />
 
 
